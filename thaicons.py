@@ -3,11 +3,17 @@ from tkinter import font
 
 # Thai consonants dictionary
 thai_consonants = [
-    ("ก", "กอ ไก่"), ("ข", "ขอ ไข่"), ("ค", "คอ ควาย"), ("ง", "งอ งู"),
-    ("จ", "จอ จาน"), ("ฉ", "ฉอ ฉิ่ง"), ("ช", "ชอ ช้าง"), ("ซ", "ซอ โซ่"),
-    ("ญ", "ญอ หญิง"), ("ฎ", "ฎอ ชฎา"), ("ฏ", "ฏอ ปฏัก"), ("ฐ", "ฐอ ฐาน"),
-    ("ท", "ทอ ทหาร"), ("พ", "พอ พาน"), ("ม", "มอ ม้า"), ("ร", "รอ เรือ"),
-    ("ล", "ลอ ลิง"), ("ว", "วอ แหวน"), ("ส", "สอ เสือ"), ("ห", "หอ หีบ")
+    ("ก", "Ko Kai (Chicken)"), ("ข", "Kho Khai (Egg)"), ("ค", "Kho Khwai (Buffalo)"), ("ง", "Ngo Ngu (Snake)"),
+    ("จ", "Cho Chan (Plate)"), ("ฉ", "Cho Ching (Cymbals)"), ("ช", "Cho Chang (Elephant)"), ("ซ", "So So (Chain)"),
+    ("ฌ", "Cho Choe (Tree)"), ("ญ", "Yo Ying (Woman)"), ("ฎ", "Do Chada (Headdress)"), ("ฏ", "To Patak (Goad)"),
+    ("ฐ", "Tho Than (Base)"), ("ฑ", "Tho Montho (Character Montho)"), ("ฒ", "Tho Phuthao (Elder)"), ("ณ", "No Nen (Novice monk)"),
+    ("ด", "Do Dek (Child)"), ("ต", "To Tao (Turtle)"), ("ถ", "Tho Thung (Bag)"), ("ท", "Tho Thahan (Soldier)"),
+    ("ธ", "Tho Thong (Flag)"), ("น", "No Nu (Mouse)"), ("บ", "Bo Baimai (Leaf)"), ("ป", "Po Pla (Fish)"),
+    ("ผ", "Pho Phueng (Bee)"), ("ฝ", "Fo Fa (Lid)"), ("พ", "Pho Phan (Tray)"), ("ฟ", "Fo Fan (Teeth)"),
+    ("ภ", "Pho Samphao (Sailboat)"), ("ม", "Mo Ma (Horse)"), ("ย", "Yo Yak (Giant)"), ("ร", "Ro Ruea (Boat)"),
+    ("ล", "Lo Ling (Monkey)"), ("ว", "Wo Waen (Ring)"), ("ศ", "So Sala (Pavilion)"), ("ษ", "So Rue-si (Hermit)"),
+    ("ส", "So Suea (Tiger)"), ("ห", "Ho Hip (Chest)"), ("ฬ", "Lo Chula (Kite)"), ("อ", "O Ang (Basin)"),
+    ("ฮ", "Ho Nokhuk (Owl)")
 ]
 
 class FlashcardApp:
